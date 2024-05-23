@@ -1,0 +1,16 @@
+.wrapper {
+  margin: var(--sm);
+  display: flex;
+}
+.task-title-input {
+  padding: var(--sm) var(--md);
+  flex: 1;
+  border: 1px solid var(--primary-color);
+  outline: none;
+  border-radius: var(--border-radius);
+  transition: 200ms ease;
+}
+
+.task-title-input:focus {
+  border: 1px solid var(--secondary-color);
+}

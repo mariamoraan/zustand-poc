@@ -1,0 +1,11 @@
+.wrapper {
+  padding: var(--md) 0;
+}
+
+.head {
+  margin: var(--sm);
+}
+
+.head .title {
+  font-size: 32px;
+}

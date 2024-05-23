@@ -1,0 +1,24 @@
+.wrapper {
+  padding: var(--md) var(--md);
+  display: flex;
+  align-items: center;
+  gap: var(--sm);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.check {
+  padding: var(--xxs);
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 200ms ease;
+}
+
+.check.completed {
+  color: var(--primary-color);
+}
+.check.uncompleted {
+  border-color: var(--gray-color);
+  border-radius: 100%;
+  color: var(--gray-color);
+}
